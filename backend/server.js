@@ -9,7 +9,7 @@ const historyRouter = require("./routes/history.router.js");
 // Thêm dòng này để import upload router
 const uploadRouter = require("./routes/upload.router.js");
 require("dotenv").config(); // Đảm bảo dòng này có để nạp file .env
-const allowOrigins = ["http://localhost:3000"];
+const allowOrigins = ["http://localhost:3000", "https://fe-quan-ly-nha-tro-faw6.vercel.app"];
 app.use(
   cors({
     origin: allowOrigins,

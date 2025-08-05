@@ -1,0 +1,43 @@
+[
+    {
+        "_id": {
+            "$oid": "507f1f77bcf86cd799439099"
+        },
+        "roomId": {
+            "$oid": "507f191e810c19729de860e3"
+        },
+        "tenant": {
+            "$oid": "507f191e810c19729de860ef"
+        },
+        "landlord": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "house_address": "456 Trần Hưng Đạo, Phường 7, Quận 5, TP. Hồ Chí Minh",
+        "startDate": "2025-07-01T00:00:00.000Z",
+        "endDate": "2026-06-30T00:00:00.000Z",
+        "price": 4000000,
+        "deposit": {
+            "amount": 20000000,
+            "paymentDate": "2025-06-20T00:00:00.000Z",
+            "status": "paid"
+        },
+        "file": [
+            "https://res.cloudinary.com/dbyb3icyk/image/upload/v1753299555/contracts/xrvica41vnweougjnxaf.jpg"
+        ],
+        "house_service": [
+            {
+                "$oid": "507f1f77bcf86cd799439051"
+            },
+            {
+                "$oid": "507f1f77bcf86cd799439052"
+            }
+        ],
+        "terms": "Không nuôi thú cưng. Không hút thuốc trong nhà. Giữ gìn vệ sinh chung. Không gây ồn ào sau 22h. Khách đến ở qua đêm phải báo trước với chủ nhà.",
+        "createBy": {
+            "$oid": "687dd482a0124fce2727f586"
+        },
+        "status": "active",
+        "createdAt": "2025-06-20T10:00:00.000Z",
+        "updatedAt": "2025-06-20T10:00:00.000Z"
+    }
+]

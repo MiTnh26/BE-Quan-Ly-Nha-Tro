@@ -1,0 +1,200 @@
+[
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b1"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-10T08:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-10T08:00:00.000Z"
+        },
+        "content": "NỘI QUY NHÀ TRỌ:\n\n1. Giữ gìn vệ sinh chung:\n- Mỗi người có trách nhiệm dọn dẹp khu vực cá nhân và khu vực sử dụng chung.\n- Không xả rác bừa bãi, phải phân loại rác và bỏ đúng nơi quy định.\n- Không đổ thức ăn thừa, dầu mỡ hoặc nước thải xuống nhà tắm/toilet gây tắc nghẽn.\n- Giày dép, đồ đạc không để chắn lối đi chung.\n\n2. Không gây ồn sau 22h:\n- Không mở nhạc to, hát karaoke, nói chuyện lớn sau 22h.\n- Các buổi tụ tập cần thông báo và được sự đồng thuận từ chủ trọ và các phòng bên cạnh.\n- Tránh mọi tiếng động lớn từ 22h đến 6h sáng hôm sau.\n\n3. Không nuôi động vật lớn:\n- Chỉ được nuôi thú cưng nhỏ, sạch sẽ và không gây ảnh hưởng tới người khác.\n- Không nuôi chó lớn, mèo nhiều con, chim hót to hoặc động vật nguy hiểm.\n- Chủ vật nuôi tự chịu trách nhiệm dọn vệ sinh và xử lý mùi hôi.\n\n4. Đóng tiền trọ trước ngày 5 hàng tháng:\n- Phải thanh toán đầy đủ tiền phòng và các phí phát sinh đúng hạn.\n- Trễ hạn không lý do sẽ bị phạt 50.000đ/ngày.\n- Quá 10 ngày sẽ bị ngắt điện nước và có thể chấm dứt hợp đồng.\n\n5. Báo ngay khi có sự cố về điện nước:\n- Khi phát hiện rò rỉ điện, nước, hư hỏng, chập cháy cần báo ngay chủ trọ.\n- Không được tự ý sửa chữa hệ thống điện – nước.\n- Phối hợp bảo quản thiết bị chung như máy giặt, wifi, camera.\n\n6. Quy định khác:\n- Người ở qua đêm phải khai báo với chủ trọ.\n- Cấm sử dụng ma túy, cờ bạc, tụ tập trái phép.\n- Không tự ý sửa phòng, khoan tường, thay đổi hiện trạng.\n- Trả phòng nguyên trạng, sạch sẽ khi kết thúc hợp đồng.\n\n📞 Mọi thắc mắc liên hệ chủ trọ để được hỗ trợ kịp thời.",
+        "title": "NỘI QUY NHÀ TRỌ",
+        "tag": "Quy định",
+        "pinned": true
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b0"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-11T12:30:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-11T12:30:00.000Z"
+        },
+        "content": "Chào mừng các bạn đến với nhà trọ mới! Hãy liên hệ bảo vệ nếu cần hỗ trợ.",
+        "title": "Chào mừng đến với nhà trọ",
+        "tag": "Tin tức",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b2"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-12T09:15:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-12T09:15:00.000Z"
+        },
+        "content": "Nhà trọ sẽ tiến hành bảo trì hệ thống nước vào ngày 15/8. Mong mọi người thông cảm nếu có gián đoạn.",
+        "title": "Lịch bảo trì hệ thống nước",
+        "tag": "Cảnh báo",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b3"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-15T14:30:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-15T14:30:00.000Z"
+        },
+        "content": "Nhà trọ mới lắp camera an ninh tại các khu vực chung. Mọi người yên tâm sinh hoạt.",
+        "title": "Lắp đặt camera an ninh",
+        "tag": "Tin tức",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b4"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-18T10:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-18T10:00:00.000Z"
+        },
+        "content": "Nhắc nhở các phòng 101, 205, 304 đóng tiền trọ trước ngày 20/8 để tránh bị cắt điện.",
+        "title": "Nhắc nhở đóng tiền trọ",
+        "tag": "Nhắc nhở",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b5"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-20T16:45:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-20T16:45:00.000Z"
+        },
+        "content": "Khu vực để xe tầng 1 đã được sửa chữa xong. Mọi người có thể gửi xe bình thường.",
+        "title": "Thông báo về khu vực để xe",
+        "tag": "Thông báo",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b6"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-22T11:20:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-22T11:20:00.000Z"
+        },
+        "content": "Cảnh báo có đối tượng lạ xuất hiện quanh khu trọ. Mọi người chú ý khóa cửa cẩn thận.",
+        "title": "Cảnh báo an ninh",
+        "tag": "Cảnh báo",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b7"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-25T13:10:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-25T13:10:00.000Z"
+        },
+        "content": "Nhà trọ sẽ tổ chức tiệc Trung thu vào tối 29/8. Mọi người đăng ký tham gia với bảo vệ.",
+        "title": "Thông báo tiệc Trung thu",
+        "tag": "Tin tức",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b8"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-28T09:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-28T09:00:00.000Z"
+        },
+        "content": "Nhắc nhở không để rác ở hành lang. Vui lòng bỏ rác đúng nơi quy định.",
+        "title": "Nhắc nhở vệ sinh chung",
+        "tag": "Nhắc nhở",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7b9"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-08-30T15:30:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-08-30T15:30:00.000Z"
+        },
+        "content": "Tháng 9 nhà trọ sẽ tăng giá điện từ 3.500đ lên 3.800đ/kWh theo quy định mới.",
+        "title": "Điều chỉnh giá điện",
+        "tag": "Thông báo",
+        "pinned": false
+    },
+    {
+        "_id": {
+            "$oid": "64d4e5b7a1b2c3d4e5f6a7c0"
+        },
+        "author": {
+            "$oid": "507f191e810c19729de860ea"
+        },
+        "createdAt": {
+            "$date": "2023-09-01T17:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2023-09-01T17:00:00.000Z"
+        },
+        "content": "Máy giặt tự động tầng 3 đã được sửa xong. Mọi người có thể sử dụng bình thường.",
+        "title": "Thông báo về máy giặt",
+        "tag": "Thông báo",
+        "pinned": false
+    }
+]

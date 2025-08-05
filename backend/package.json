@@ -4,7 +4,7 @@
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server",
+    "start": "nodemon server.js",
     "test:atlas": "node scripts/testAtlasConnection.js",
     "check:mongo": "node scripts/checkMongoVersion.js",
     "migrate:remove-staff": "node scripts/removeStaffUsers.js",

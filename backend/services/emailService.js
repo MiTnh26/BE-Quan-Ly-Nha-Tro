@@ -3,7 +3,9 @@ const { sendMail } = require("../utils/sendMail");
 class EmailService {
   // Template email quên mật khẩu
   static async sendForgotPasswordEmail(user, resetToken) {
-    const resetUrl = `${process.env.FRONTEND_URL || 'http://localhost:3000'}/reset-password/${resetToken}`;
+    const resetUrl = `${
+      process.env.FRONTEND_URL || "http://localhost:3000"
+    }/reset-password/${resetToken}`;
 
     const subject = "Đặt lại mật khẩu - Hệ thống quản lý trọ";
     const content = `
@@ -26,14 +28,15 @@ class EmailService {
       const result = await sendMail(user.email, subject, content);
       return { success: true, messageId: result.messageId };
     } catch (error) {
-      console.error('Send forgot password email error:', error);
-      throw new Error('Không thể gửi email đặt lại mật khẩu');
+      console.error("Send forgot password email error:", error);
+      throw new Error("Không thể gửi email đặt lại mật khẩu");
     }
   }
 
   // Template email thông báo đặt lại mật khẩu thành công
   static async sendPasswordResetSuccessEmail(user) {
-    const subject = "Mật khẩu đã được đặt lại thành công - Hệ thống quản lý trọ";
+    const subject =
+      "Mật khẩu đã được đặt lại thành công - Hệ thống quản lý trọ";
     const content = `
       Xin chào ${user.fullname},
       
@@ -49,7 +52,7 @@ class EmailService {
       const result = await sendMail(user.email, subject, content);
       return { success: true, messageId: result.messageId };
     } catch (error) {
-      console.error('Send password reset success email error:', error);
+      console.error("Send password reset success email error:", error);
       // Không throw error vì đây chỉ là email thông báo
       return { success: false, error: error.message };
     }
@@ -75,7 +78,7 @@ class EmailService {
       const result = await sendMail(user.email, subject, content);
       return { success: true, messageId: result.messageId };
     } catch (error) {
-      console.error('Send welcome email error:', error);
+      console.error("Send welcome email error:", error);
       return { success: false, error: error.message };
     }
   }
@@ -86,7 +89,7 @@ class EmailService {
     <div style="font-family: Arial, sans-serif; line-height: 1.6;">
       <h2 style="color: #2c3e50;">Xin chào ${user.fullname},</h2>
       
-      <p>Admin đã tạo tài khoản cho bạn trên hệ thống quản lý nhà trọ Quang Huy.</p>
+      <p>Admin đã tạo tài khoản cho bạn trên hệ thống quản lý nhà trọ 113 Ngõ Trại Cá.</p>
       
       <div style="background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 15px 0;">
         <p style="margin: 0;"><strong>Thông tin đăng nhập:</strong></p>
@@ -100,7 +103,7 @@ class EmailService {
       
       <p style="color: #7f8c8d; margin-top: 30px;">
         Trân trọng,<br>
-        <strong>Ban quản lý nhà trọ Quang Huy</strong>
+        <strong>Ban quản lý nhà trọ 113 Ngõ Trại Cá</strong>
       </p>
     </div>
   `;
@@ -109,10 +112,10 @@ class EmailService {
       const result = await sendMail(user.email, subject, content);
       return { success: true, messageId: result.messageId };
     } catch (error) {
-      console.error('Send tenant account email error:', error);
-      throw new Error('Không thể gửi email thông tin tài khoản');
+      console.error("Send tenant account email error:", error);
+      throw new Error("Không thể gửi email thông tin tài khoản");
     }
   }
 }
 
-module.exports = EmailService; 
+module.exports = EmailService;

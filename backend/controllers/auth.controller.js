@@ -26,13 +26,13 @@ const loginUser = async (req, res) => {
     }
 
     // Bỏ comment phần này nếu bạn muốn sử dụng bcrypt
-    // const isMatch = await bcrypt.compare(password, user.password);
-    // if (!isMatch)
-    //   return res.status(411).json({ message: "Invalid credentials!" });
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch)
+      return res.status(411).json({ message: "Invalid credentials!" });
 
     // Hiện tại đang so sánh password trực tiếp (không an toàn)
-    if (user.password !== password)
-      return res.status(401).json({ message: "Invalid credentials!" });
+    // if (user.password !== password)
+    //   return res.status(401).json({ message: "Invalid credentials!" });
 
     const token = generateToken(user._id);
 
